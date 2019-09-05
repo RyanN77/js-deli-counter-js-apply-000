@@ -1,8 +1,9 @@
+var b = 0
+
 function takeANumber(line, name){
   line.push(name)
-  var b = 0
   b++
-  return 'Welcome, ' + name + '. You are number ' + b;
+  return 'Welcome, you are number ' + b;
 }
 
 function nowServing(line){
