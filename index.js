@@ -1,8 +1,8 @@
 var b = 0
 
 function takeANumber(line){
-  line.push(b)
   b++
+  line.push(b)
   return 'Welcome, you are number ' + b;
 }
 
